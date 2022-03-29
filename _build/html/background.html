@@ -51,6 +51,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
@@ -249,6 +251,11 @@ const thebe_selector_output = ".output, .cell_output"
 <p>This is some sample text.</p>
 <div class="section" id="here-s-my-first-section">
 <span id="section-label"></span><h2>Here’s my first section<a class="headerlink" href="#here-s-my-first-section" title="Permalink to this headline">¶</a></h2>
+<p>Let’s test out the equations and equation labeling. Here is an example equation:</p>
+<div class="math notranslate nohighlight" id="equation-eq-growth-equation">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eq-growth-equation" title="Permalink to this equation">¶</a></span>\[
+P\left(t+\Delta{t}\right) = \exp\left(\mu_{t\rightarrow t+\Delta{t}}\Delta{t}\right)P_{t}
+\]</div>
 <p>Here is a <a class="reference internal" href="intro.html"><span class="doc std std-doc">reference to the intro</span></a>. Here is a reference to <a class="reference internal" href="#section-label"><span class="std std-ref">Here’s my first section</span></a>.</p>
 </div>
 </div>
